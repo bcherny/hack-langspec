@@ -124,7 +124,7 @@ to identify and retrieve a contained VSlot using a dictionary scheme
 (such as having values with integer keys or case-sensitive string keys).
 Whether an HStore is a fixed-size during its whole lifetime or whether
 it can change size, is unspecified. Whether it allocates auxiliary
-chunks of memory or not, is unspecified. Whether it organizes it's
+chunks of memory or not, is unspecified. Whether it organizes its
 contained VSlots in a linked list or some other manner is unspecified.
 
 An HStore’s VSlots (i.e., the VSlots contained within the HStore) point
@@ -831,7 +831,7 @@ this abstract model, the “Arr-D” type tag is considered identical to the
 
 To illustrate this, let’s see how the previous example would be
 represented under the abstract model assuming the implementation defers
-the copying the array:
+the copying of the array:
 
 ```Hack
 $x = 123;
