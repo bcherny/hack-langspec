@@ -4,7 +4,7 @@
 
 The meaning of a value is decided by its *type*. Hack's types are
 categorized as *scalar types* and *composite types*. The scalar types
-are [Boolean](#the-boolean-type), [integer](#the-integer-type), [floating-point](#the-floating-point-type), [numeric](05-types.md#the-numeric-type), [string](#the-string-type), [array key](05-types.md#the-array-key-type), [null](#the-null-type), and
+are [boolean](#the-boolean-type), [integer](#the-integer-type), [floating-point](#the-floating-point-type), [numeric](05-types.md#the-numeric-type), [string](#the-string-type), [array key](05-types.md#the-array-key-type), [null](#the-null-type), and
 [enumerated](05-types.md#enumerated-types). The non-scalar types are [array](05-types.md#array-types), [class](05-types.md#class-types), [interface](05-types.md#interface-types), [tuple](05-types.md#tuple-types), [shape](05-types.md#shape-types), [closure](05-types.md#closure-types), [resource](05-types.md#resource-types), and [nullable](05-types.md#nullable-types). The [void type](05-types.md#the-void-type) is neither scalar nor
 non-scalar.
 
